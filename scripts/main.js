@@ -1,4 +1,4 @@
-const ui = require("ui-lib2/library");
+const ui = require("ui-lib/library");
 
 const core = require("pictologic/core");
 
