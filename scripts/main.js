@@ -22,10 +22,8 @@ ui.onLoad(() => {
 	ptl.cont.row();
 	ptl.cont.add("[coral]Пожалуйста, не используйте это для пушистого дерьма, спасибо");
 	ptl.cont.row();
-	ptl.cont.add("[coral]@xar4a – gay");
-	ptl.cont.row();
 
-	ptl.cont.button("Select Image", () => {
+	ptl.cont.button("Выбрать PNG", () => {
 		Vars.platform.showFileChooser(false, "png", file => {
 			try {
 				const bytes = file.readBytes();
@@ -35,6 +33,8 @@ ui.onLoad(() => {
 			}
 		});
 	}).size(240, 50);
+	ptl.cont.row();
+	ptl.cont.add("[coral]@xar4a – gay");
 	ptl.cont.row();
 
 	ptl.cont.label(() => core.stage).center();
