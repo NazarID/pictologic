@@ -1,7 +1,7 @@
 {
 	"name": "pictologic",
 	"displayName": "PicToLogic",
-	"author": "deltanedas, Router and another guy",
+	"author": "deltanedas, Router and another guy [modified by NazarID]",
 	"description": "Adds a dialog for turning images into processor schematics.\n[stat]Requires [#00aaff]deltanedas/ui-lib[].",
 	"version": "1.6.0",
 	"dependencies": ["ui-lib2"],
