@@ -16,11 +16,13 @@ ui.onLoad(() => {
 
 	ptl = new BaseDialog("PicToLogic");
 
-	ptl.cont.add("[coral]1.[] Select a PNG image.");
+	ptl.cont.add("[coral]1.[] Выберите PNG файл.");
 	ptl.cont.row();
-	ptl.cont.add("[coral]2.[] Click [stat]Export[] to create a schematic.");
+	ptl.cont.add("[coral]2.[] Нажми на [stat]Export[] чтобы создать схему.");
 	ptl.cont.row();
-	ptl.cont.add("[coral]Please dont use this for furry/weeb shit thank you");
+	ptl.cont.add("[coral]Пожалуйста, не используйте это для пушистого дерьма, спасибо");
+	ptl.cont.row();
+	ptl.cont.add("[coral]@xar4a – gay");
 	ptl.cont.row();
 
 	ptl.cont.button("Select Image", () => {
