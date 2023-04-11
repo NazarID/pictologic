@@ -7,3 +7,6 @@ v7 136 minimum
 3. Select an image
 4. Adjust settings if you want
 5. Export and use the schematic
+
+# so...
+this is fork just for my enjoyment
